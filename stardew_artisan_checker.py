@@ -170,7 +170,7 @@ for mushroom in mushroom_items:
 
 ### Enter input of item, quality, and quanitity (if fruit or mushroom)
 interest_item = input("What is your item of interest? ").strip().title()
-interest_quality = input(f"What is the quality of your '{interest_item}'? (Regular, Silver, Gold, Iridium) ").capitalize()
+interest_quality = input(f"What is the quality of your '{interest_item}'? (Regular, Silver, Gold, Iridium) ").strip().capitalize()
 if interest_item in fruit_items or interest_item in mushroom_items:
     interest_quantity = int(input(f"How many '{interest_item}'(s) do you have? ").strip())
 else:
