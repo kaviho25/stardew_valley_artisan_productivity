@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stardew Artisan Best Value Checker</title>
+<script src="https://cdn.jsdelivr.net/pyodide/v0.26.1/full/pyodide.js"></script>
+<style>
+  body {
+    font-family: monospace;
+    background: #1e1e1e;
+    color: #f0f0f0;
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 1.2em; }
+  #output {
+    white-space: pre-wrap;
+    background: #111;
+    border: 1px solid #444;
+    padding: 12px;
+    border-radius: 6px;
+    min-height: 100px;
+  }
+  #status { color: #888; font-size: 0.9em; }
+  button {
+    background: #4a7c59;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-size: 1em;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+  <h1>Stardew Artisan Best Value Checker</h1>
+  <p id="status">Loading Python and your data files...</p>
+  <pre id="output"></pre>
+  <button id="runButton" style="display:none;" onclick="runChecker()">Check another item</button>
+
+<script>
+  let pyodide = null;
+  const outputEl = document.getElementById("output");
+  const statusEl = document.getElementById("status");
+
+  // NOTE: update this list if you rename/add/remove CSV files in your repo
+  const dataFiles = [
+    "animal_products_original.csv",
+    "keg_productivity_original.csv",
+    "preserves_jar_productivity_original.csv"
+  ];
+
+  // NOTE: update this if your Python file has a different name
+  const pythonFile = "stardew_artisan_checker.py";
+
+  async function setup() {
+    pyodide = await loadPyodide();
+
+    // Redirect Python's print() output onto the page instead of the browser console
+    pyodide.setStdout({
+      batched: (msg) => { outputEl.textContent += msg + "\n"; }
+    });
+
+    // Replace input() with a browser popup box, since there's no terminal here
+    pyodide.globals.set("input", (promptText) => {
+      return window.prompt(promptText);
+    });
+
+    // Pull each CSV's real text and place it into Pyodide's virtual filesystem
+    // so your existing open("filename.csv") calls work completely unchanged
+    for (const filename of dataFiles) {
+      const response = await fetch(filename);
+      const text = await response.text();
+      pyodide.FS.writeFile(filename, text);
+    }
+
+    statusEl.textContent = "Ready.";
+    document.getElementById("runButton").style.display = "inline-block";
+    runChecker();
+  }
+
+  async function runChecker() {
+    outputEl.textContent = "";
+    const response = await fetch(pythonFile);
+    const code = await response.text();
+    try {
+      await pyodide.runPythonAsync(code);
+    } catch (err) {
+      outputEl.textContent += "\nSomething went wrong:\n" + err;
+    }
+  }
+
+  setup();
+</script>
+</body>
+</html>
