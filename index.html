@@ -72,7 +72,7 @@
     // Pull each CSV's real text and place it into Pyodide's virtual filesystem
     // so your existing open("filename.csv") calls work completely unchanged
     for (const filename of dataFiles) {
-      const response = await fetch(filename);
+      const response = await fetch(filename + "?v=" + Date.now());
       const text = await response.text();
       pyodide.FS.writeFile(filename, text);
     }
@@ -84,7 +84,7 @@
 
   async function runChecker() {
     outputEl.textContent = "";
-    const response = await fetch(pythonFile);
+    const response = await fetch(pythonFile + "?v=" + Date.now());
     const code = await response.text();
     try {
       await pyodide.runPythonAsync(code);
