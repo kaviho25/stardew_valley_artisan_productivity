@@ -1,0 +1,231 @@
+Input Item,Quality,Input Item Sell Price,"Processed Sell Price(Regular Quality)",Increase in Value (g),Productivity (g/minute),Approximate g/day [1]
+Amaranth,Regular,165,471,306,0.051,82
+Amaranth,Silver,205,471,266,0.044,70
+Amaranth,Gold,247,471,224,0.037,59
+Amaranth,Iridium,330,471,141,0.024,38
+Ancient Fruit,Regular,605,2310,1705,0.171,274
+Ancient Fruit,Silver,755,2310,1555,0.156,250
+Ancient Fruit,Gold,907,2310,1403,0.14,224
+Ancient Fruit,Iridium,1210,2310,1100,0.11,176
+Apple,Regular,110,420,310,0.031,50
+Apple,Silver,137,420,283,0.028,45
+Apple,Gold,165,420,255,0.026,42
+Apple,Iridium,220,420,200,0.02,32
+Apricot,Regular,55,210,155,0.016,26
+Apricot,Silver,68,210,142,0.014,22
+Apricot,Gold,82,210,128,0.013,21
+Apricot,Iridium,110,210,100,0.01,16
+Artichoke,Regular,176,504,328,0.055,88
+Artichoke,Silver,220,504,284,0.047,75
+Artichoke,Gold,264,504,240,0.04,64
+Artichoke,Iridium,352,504,152,0.025,40
+Banana,Regular,165,630,465,0.047,75
+Banana,Silver,205,630,425,0.043,69
+Banana,Gold,247,630,383,0.038,61
+Banana,Iridium,330,630,300,0.03,48
+Beet,Regular,110,315,205,0.034,54
+Beet,Silver,137,315,178,0.03,48
+Beet,Gold,165,315,150,0.025,40
+Beet,Iridium,220,315,95,0.016,26
+Blackberry [2],Regular,20,84,64,0.006,10
+Blackberry [2],Silver,25,84,59,0.006,10
+Blackberry [2],Gold,30,84,54,0.005,8
+Blackberry [2],Iridium,40,84,44,0.004,6
+Blackberry,Regular,22,84,62,0.006,10
+Blackberry,Iridium,44,84,40,0.004,6
+Blackberry [2] with Bear's Knowledge,Regular,60,84,24,0.002,3
+Blackberry [2] with Bear's Knowledge,Silver,75,84,9,0.001,2
+Blackberry [2] with Bear's Knowledge,Gold,90,84,-6,-0.001,-2
+Blackberry [2] with Bear's Knowledge,Iridium,120,84,-36,-0.004,-6
+Blackberry with Bear's Knowledge,Regular,66,84,18,0.002,3
+Blackberry with Bear's Knowledge,Iridium,132,84,-48,-0.005,-8
+Blueberry,Regular,55,210,155,0.016,26
+Blueberry,Silver,68,210,142,0.014,22
+Blueberry,Gold,82,210,128,0.013,21
+Blueberry,Iridium,110,210,100,0.01,16
+Bok Choy,Regular,88,252,164,0.027,43
+Bok Choy,Silver,110,252,142,0.024,38
+Bok Choy,Gold,132,252,120,0.02,32
+Bok Choy,Iridium,176,252,76,0.013,21
+Cactus Fruit [2],Regular,75,315,240,0.024,38
+Cactus Fruit [2],Silver,93,315,222,0.022,35
+Cactus Fruit [2],Gold,112,315,203,0.02,32
+Cactus Fruit [2],Iridium,150,315,165,0.017,27
+Cactus Fruit,Regular,82,315,233,0.023,37
+Cactus Fruit,Silver,102,315,213,0.021,34
+Cactus Fruit,Gold,123,315,192,0.019,30
+Cactus Fruit,Iridium,165,315,150,0.015,24
+Carrot,Regular,38,109,71,0.012,19
+Carrot,Silver,47,109,62,0.01,16
+Carrot,Gold,57,109,52,0.009,14
+Carrot,Iridium,77,109,32,0.005,8
+Cauliflower,Regular,192,550,358,0.06,96
+Cauliflower,Silver,239,550,311,0.052,83
+Cauliflower,Gold,288,550,262,0.044,70
+Cauliflower,Iridium,385,550,165,0.028,45
+Cherry,Regular,88,336,248,0.025,40
+Cherry,Silver,110,336,226,0.023,37
+Cherry,Gold,132,336,204,0.02,32
+Cherry,Iridium,176,336,160,0.016,26
+Coconut [2],Regular,100,420,320,0.032,51
+Coconut [2],Silver,125,420,295,0.03,48
+Coconut [2],Gold,150,420,270,0.027,43
+Coconut [2],Iridium,200,420,220,0.022,35
+Coffee Bean [3],Regular,75 [5],150,75,0.625,1000
+Coffee Bean [3],Silver,90 [5],150,60,0.5,800
+Coffee Bean [3],Gold,110 [5],150,40,0.333,533
+Coffee Bean [3],Iridium,150 [5],150,0,0,0
+Corn,Regular,55,156,101,0.017,27
+Corn,Silver,68,156,88,0.015,24
+Corn,Gold,82,156,74,0.012,19
+Corn,Iridium,110,156,46,0.008,13
+Cranberries,Regular,82,315,233,0.023,37
+Cranberries,Silver,102,315,213,0.021,34
+Cranberries,Gold,123,315,192,0.019,30
+Cranberries,Iridium,165,315,150,0.015,24
+Crystal Fruit [2],Regular,150,630,480,0.048,77
+Crystal Fruit [2],Silver,187,630,443,0.044,70
+Crystal Fruit [2],Gold,225,630,405,0.041,66
+Crystal Fruit [2],Iridium,300,630,330,0.033,53
+Eggplant,Regular,66,189,216,0.036,58
+Eggplant,Silver,82,189,200,0.033,53
+Eggplant,Gold,99,189,183,0.031,50
+Eggplant,Iridium,132,189,150,0.025,40
+Fiddlehead Fern,Regular,99,282,183,0.031,50
+Fiddlehead Fern,Silver,123,282,159,0.027,43
+Fiddlehead Fern,Gold,148,282,134,0.022,35
+Fiddlehead Fern,Iridium,198,282,84,0.014,22
+Garlic,Regular,66,189,123,0.021,34
+Garlic,Silver,82,189,107,0.018,29
+Garlic,Gold,99,189,90,0.015,24
+Garlic,Iridium,132,189,57,0.01,16
+Grape [2],Regular,80,336,256,0.026,42
+Grape [2],Silver,100,336,236,0.024,38
+Grape [2],Gold,120,336,216,0.022,35
+Grape [2],Iridium,160,336,176,0.018,29
+Grape,Regular,88,336,248,0.025,40
+Grape,Silver,110,336,226,0.023,37
+Grape,Gold,132,336,204,0.02,32
+Grape,Iridium,176,336,160,0.016,26
+Green Bean,Regular,44,126,82,0.014,22
+Green Bean,Silver,55,126,71,0.012,19
+Green Bean,Gold,66,126,60,0.01,16
+Green Bean,Iridium,88,126,38,0.006,10
+Honey - Blue Jazz [4],Regular,280,420,140,0.233,373
+Honey - Fairy Rose [4],Regular,952,420,-532,-0.887,-1419
+Honey - Poppy [4],Regular,532,420,-112,-0.187,-299
+Honey - Summer Spangle [4],Regular,392,420,28,0.047,75
+Honey - Sunflower [4],Regular,364,420,56,0.093,149
+Honey - Tulip [4],Regular,224,420,196,0.327,523
+Honey - Wild [4],Regular,140,420,280,0.467,747
+Hops,Regular,27,420,393,0.175,280
+Hops,Silver,34,420,386,0.172,275
+Hops,Gold,40,420,380,0.169,270
+Hops,Iridium,55,420,365,0.162,259
+Hot Pepper,Regular,44,168,124,0.012,19
+Hot Pepper,Silver,55,168,113,0.011,18
+Hot Pepper,Gold,66,168,102,0.01,16
+Hot Pepper,Iridium,88,168,80,0.008,13
+Kale,Regular,121,345,224,0.037,59
+Kale,Silver,150,345,195,0.033,53
+Kale,Gold,181,345,164,0.027,43
+Kale,Iridium,242,345,103,0.017,27
+Mango,Regular,143,546,403,0.04,64
+Mango,Silver,178,546,368,0.037,59
+Mango,Gold,214,546,332,0.033,53
+Mango,Iridium,286,546,260,0.026,42
+Melon,Regular,275,1050,775,0.078,125
+Melon,Silver,343,1050,707,0.071,114
+Melon,Gold,412,1050,638,0.064,102
+Melon,Iridium,550,1050,500,0.05,80
+Orange,Regular,110,420,310,0.031,50
+Orange,Silver,137,420,283,0.028,45
+Orange,Gold,165,420,255,0.026,42
+Orange,Iridium,220,420,200,0.02,32
+Parsnip,Regular,38,109,71,0.012,19
+Parsnip,Silver,47,109,62,0.01,16
+Parsnip,Gold,57,109,52,0.009,14
+Parsnip,Iridium,77,109,32,0.005,8
+Peach,Regular,154,588,434,0.043,69
+Peach,Silver,192,588,396,0.04,64
+Peach,Gold,231,588,357,0.036,58
+Peach,Iridium,308,588,280,0.028,45
+Pineapple,Regular,330,1260,930,0.093,149
+Pineapple,Silver,412,1260,848,0.085,136
+Pineapple,Gold,495,1260,765,0.077,123
+Pineapple,Iridium,660,1260,600,0.06,96
+Pomegranate,Regular,154,588,434,0.043,69
+Pomegranate,Silver,192,588,396,0.04,64
+Pomegranate,Gold,231,588,357,0.036,58
+Pomegranate,Iridium,308,588,280,0.028,45
+Potato,Regular,88,252,164,0.027,43
+Potato,Silver,110,252,142,0.024,38
+Potato,Gold,132,252,120,0.02,32
+Potato,Iridium,176,252,76,0.013,21
+Pumpkin,Regular,352,1008,656,0.109,174
+Pumpkin,Silver,440,1008,568,0.095,152
+Pumpkin,Gold,528,1008,480,0.08,128
+Pumpkin,Iridium,704,1008,304,0.051,82
+Qi Fruit,Regular,1,4,3,0,0
+Radish,Regular,99,282,183,0.031,50
+Radish,Silver,123,282,159,0.027,43
+Radish,Gold,148,282,134,0.022,35
+Radish,Iridium,198,282,84,0.014,22
+Red Cabbage,Regular,286,819,533,0.089,142
+Red Cabbage,Silver,357,819,462,0.077,123
+Red Cabbage,Gold,429,819,390,0.065,104
+Red Cabbage,Iridium,572,819,247,0.041,66
+Rhubarb,Regular,242,924,682,0.068,109
+Rhubarb,Silver,302,924,622,0.062,99
+Rhubarb,Gold,363,924,561,0.056,90
+Rhubarb,Iridium,484,924,440,0.044,70
+Rice,Regular,100,200,100,0.167,267
+Salmonberry [2],Regular,5,21,16,0.002,3
+Salmonberry [2],Silver,6,21,15,0.002,3
+Salmonberry [2],Gold,7,21,14,0.001,2
+Salmonberry [2],Iridium,10,21,11,0.001,2
+Salmonberry,Regular,5,21,16,0.002,3
+Salmonberry,Iridium,11,21,10,0.001,2
+Salmonberry [2] with Bear's Knowledge,Regular,15,21,6,0.001,2
+Salmonberry [2] with Bear's Knowledge,Silver,18,21,3,0,0
+Salmonberry [2] with Bear's Knowledge,Gold,21,21,0,0,0
+Salmonberry [2] with Bear's Knowledge,Iridium,30,21,-9,-0.001,-2
+Salmonberry with Bear's Knowledge,Regular,16,21,5,0.001,2
+Salmonberry with Bear's Knowledge,Iridium,33,21,-12,-0.001,-2
+Spice Berry [2],Regular,80,336,256,0.026,42
+Spice Berry [2],Silver,100,336,236,0.024,38
+Spice Berry [2],Gold,120,336,216,0.022,35
+Spice Berry [2],Iridium,160,336,176,0.018,29
+Starfruit,Regular,825,3150,2325,0.233,373
+Starfruit,Silver,1030,3150,2120,0.212,339
+Starfruit,Gold,1237,3150,1913,0.191,306
+Starfruit,Iridium,1650,3150,1500,0.15,240
+Strawberry,Regular,132,504,372,0.037,59
+Strawberry,Silver,165,504,339,0.034,54
+Strawberry,Gold,198,504,306,0.031,50
+Strawberry,Iridium,264,504,240,0.024,38
+Taro Root,Regular,110,315,205,0.034,54
+Taro Root,Silver,137,315,178,0.03,48
+Taro Root,Gold,165,315,150,0.025,40
+Taro Root,Iridium,220,315,95,0.016,26
+Tea Leaves,Regular,55,140,85,0.472,755
+Tomato,Regular,66,189,123,0.021,34
+Tomato,Silver,82,189,107,0.018,29
+Tomato,Gold,99,189,90,0.015,24
+Tomato,Iridium,132,189,57,0.01,16
+Unmilled Rice,Regular,33,93,60,0.01,16
+Unmilled Rice,Silver,40,93,53,0.009,14
+Unmilled Rice,Gold,49,93,44,0.007,11
+Unmilled Rice,Iridium,66,93,27,0.005,8
+Wheat,Regular,27,280,253,0.145,232
+Wheat,Silver,34,280,246,0.141,226
+Wheat,Gold,40,280,240,0.137,219
+Wheat,Iridium,55,280,225,0.129,206
+Wild Plum [2],Regular,80,336,256,0.026,42
+Wild Plum [2],Silver,100,336,236,0.024,38
+Wild Plum [2],Gold,120,336,216,0.022,35
+Wild Plum [2],Iridium,160,336,176,0.018,29
+Yam,Regular,176,504,328,0.055,88
+Yam,Silver,220,504,284,0.047,75
+Yam,Gold,264,504,240,0.04,64
+Yam,Iridium,352,504,152,0.025,40

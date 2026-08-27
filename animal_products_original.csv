@@ -1,0 +1,92 @@
+Item,Quality,Profession,Sell Price,Processed Item,Processed Item Quality,Processed Item Sell Price,Profit Increase
+Egg,Regular,Artisan,50,Mayonnaise,Regular,266,532%
+Egg,Silver,Artisan,62,Mayonnaise,Regular,266,429%
+Egg,Gold,Artisan,75,Mayonnaise,Regular,266,355%
+Egg,Iridium,Artisan,100,Mayonnaise,Regular,266,266%
+Large Egg,Regular,Artisan,95,Mayonnaise,Gold,399,420%
+Large Egg,Silver,Artisan,118,Mayonnaise,Gold,399,338%
+Large Egg,Gold,Artisan,142,Mayonnaise,Gold,399,281%
+Large Egg,Iridium,Artisan,190,Mayonnaise,Gold,399,210%
+Void Egg,Regular,Artisan,65,Void Mayonnaise,Regular,385,592%
+Void Egg,Silver,Artisan,81,Void Mayonnaise,Regular,385,475%
+Void Egg,Gold,Artisan,97,Void Mayonnaise,Regular,385,397%
+Void Egg,Iridium,Artisan,130,Void Mayonnaise,Regular,385,296%
+Duck Egg,Regular,Artisan,95,Duck Mayonnaise,Regular,525,553%
+Duck Egg,Silver,Artisan,118,Duck Mayonnaise,Regular,525,445%
+Duck Egg,Gold,Artisan,142,Duck Mayonnaise,Regular,525,370%
+Duck Egg,Iridium,Artisan,190,Duck Mayonnaise,Regular,525,276%
+Wool,Regular,Artisan,340,Cloth (1),Regular,658,194%
+Wool,Regular,Artisan,340,Cloth (2),Regular,1316,387%
+Wool,Silver,Artisan,425,Cloth (1),Regular,658,155%
+Wool,Silver,Artisan,425,Cloth (2),Regular,1316,310%
+Wool,Gold,Artisan,510,Cloth (1),Regular,658,129%
+Wool,Gold,Artisan,510,Cloth (2),Regular,1316,258%
+Wool,Iridium,Artisan,680,Cloth (2),Regular,1316,194%
+Dinosaur Egg,Regular,Artisan,350,Dinosaur Mayonnaise,Regular,1120,320%
+Dinosaur Egg,Silver,Artisan,437,Dinosaur Mayonnaise,Regular,1120,256%
+Dinosaur Egg,Gold,Artisan,525,Dinosaur Mayonnaise,Regular,1120,213%
+Dinosaur Egg,Iridium,Artisan,700,Dinosaur Mayonnaise,Regular,1120,160%
+Dinosaur Egg,Regular,Treasure Appraisal Guide and  Artisan,1050,Dinosaur Mayonnaise,Regular,1120,107%
+Dinosaur Egg,Silver,Treasure Appraisal Guide and  Artisan,1311,Dinosaur Mayonnaise,Regular,1120,85%
+Dinosaur Egg,Gold,Treasure Appraisal Guide and  Artisan,1575,Dinosaur Mayonnaise,Regular,1120,71%
+Dinosaur Egg,Iridium,Treasure Appraisal Guide and  Artisan,2100,Dinosaur Mayonnaise,Regular,1120,53%
+Golden Egg,Regular,Artisan,500,Mayonnaise (3),Gold,1197,239%
+Golden Egg,Silver,Artisan,625,Mayonnaise (3),Gold,1197,192%
+Golden Egg,Gold,Artisan,750,Mayonnaise (3),Gold,1197,160%
+Golden Egg,Iridium,Artisan,1000,Mayonnaise (3),Gold,1197,120%
+Ostrich Egg,Regular,Artisan,600,Mayonnaise (10),Regular,2660,443%
+Ostrich Egg,Silver,Artisan,750,Mayonnaise (10),Silver,3310,441%
+Ostrich Egg,Gold,Artisan,900,Mayonnaise (10),Gold,3990,443%
+Ostrich Egg,Iridium,Artisan,1200,Mayonnaise (10),Iridium,5320,443%
+Milk,Regular,Artisan,125,Cheese,Regular,322,258%
+Milk,Regular,Artisan,125,Cheese,Silver,402,322%
+Milk,Regular,Artisan,125,Cheese,Gold,483,386%
+Milk,Regular,Artisan,125,Cheese,Iridium,644,515%
+Milk,Silver,Artisan,156,Cheese,Regular,322,206%
+Milk,Silver,Artisan,156,Cheese,Silver,402,258%
+Milk,Silver,Artisan,156,Cheese,Gold,483,310%
+Milk,Silver,Artisan,156,Cheese,Iridium,644,413%
+Milk,Gold,Artisan,187,Cheese,Regular,322,172%
+Milk,Gold,Artisan,187,Cheese,Silver,402,215%
+Milk,Gold,Artisan,187,Cheese,Gold,483,258%
+Milk,Gold,Artisan,187,Cheese,Iridium,644,344%
+Milk,Iridium,Artisan,250,Cheese,Regular,322,129%
+Milk,Iridium,Artisan,250,Cheese,Silver,402,161%
+Milk,Iridium,Artisan,250,Cheese,Gold,483,193%
+Milk,Iridium,Artisan,250,Cheese,Iridium,644,258%
+Large Milk,Regular,Artisan,190,Cheese,Gold,483,254%
+Large Milk,Regular,Artisan,190,Cheese,Iridium,644,339%
+Large Milk,Silver,Artisan,237,Cheese,Gold,483,204%
+Large Milk,Silver,Artisan,237,Cheese,Iridium,644,272%
+Large Milk,Gold,Artisan,285,Cheese,Gold,483,169%
+Large Milk,Gold,Artisan,285,Cheese,Iridium,644,226%
+Large Milk,Iridium,Artisan,380,Cheese,Gold,483,127%
+Large Milk,Iridium,Artisan,380,Cheese,Iridium,644,169%
+Goat Milk,Regular,Artisan,225,Goat Cheese,Regular,560,249%
+Goat Milk,Regular,Artisan,225,Goat Cheese,Silver,700,311%
+Goat Milk,Regular,Artisan,225,Goat Cheese,Gold,840,373%
+Goat Milk,Regular,Artisan,225,Goat Cheese,Iridium,1120,498%
+Goat Milk,Silver,Artisan,281,Goat Cheese,Regular,560,199%
+Goat Milk,Silver,Artisan,281,Goat Cheese,Silver,700,249%
+Goat Milk,Silver,Artisan,281,Goat Cheese,Gold,840,299%
+Goat Milk,Silver,Artisan,281,Goat Cheese,Iridium,1120,399%
+Goat Milk,Gold,Artisan,337,Goat Cheese,Regular,560,166%
+Goat Milk,Gold,Artisan,337,Goat Cheese,Silver,700,208%
+Goat Milk,Gold,Artisan,337,Goat Cheese,Gold,840,249%
+Goat Milk,Gold,Artisan,337,Goat Cheese,Iridium,1120,332%
+Goat Milk,Iridium,Artisan,450,Goat Cheese,Regular,560,124%
+Goat Milk,Iridium,Artisan,450,Goat Cheese,Silver,700,156%
+Goat Milk,Iridium,Artisan,450,Goat Cheese,Gold,840,187%
+Goat Milk,Iridium,Artisan,450,Goat Cheese,Iridium,1120,249%
+Large Goat Milk,Regular,Artisan,345,Goat Cheese,Gold,840,243%
+Large Goat Milk,Regular,Artisan,345,Goat Cheese,Iridium,1120,325%
+Large Goat Milk,Silver,Artisan,431,Goat Cheese,Gold,840,195%
+Large Goat Milk,Silver,Artisan,431,Goat Cheese,Iridium,1120,260%
+Large Goat Milk,Gold,Artisan,517,Goat Cheese,Gold,840,162%
+Large Goat Milk,Gold,Artisan,517,Goat Cheese,Iridium,1120,217%
+Large Goat Milk,Iridium,Artisan,690,Goat Cheese,Gold,840,122%
+Large Goat Milk,Iridium,Artisan,690,Goat Cheese,Iridium,1120,162%
+Truffle,Regular,Artisan,625,Truffle Oil,Regular,1491,239%
+Truffle,Silver,Artisan,781,Truffle Oil,Regular,1491,191%
+Truffle,Gold,Artisan,937,Truffle Oil,Regular,1491,159%
+Truffle,Iridium,Artisan,1250,Truffle Oil,Regular,1491,119%
