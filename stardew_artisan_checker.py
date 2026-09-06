@@ -704,10 +704,10 @@ for mushroom in without(mushrooms, ["Red Mushroom"]):
 for fish_name, quality, price in fish_prices:
     add_or_update_row(master_list, fish_name, quality, price, 10, price * 2)
 
-interest_item = input("What is your item of interest? ").title()
-interest_quality = input(f"What is the quality of your '{interest_item}'? (Regular, Silver, Gold, Iridium) ").capitalize()
+interest_item = input("What is your item of interest? ").strip().title()
+interest_quality = input(f"What is the quality of your '{interest_item}'? (Regular, Silver, Gold, Iridium) ").stript().capitalize()
 if interest_item in fruits or interest_item in without(mushrooms, ["Red Mushroom"]):
-    interest_quantity = int(input(f"How many '{interest_item}'(s) do you have? "))
+    interest_quantity = int(input(f"How many '{interest_item}'(s) do you have? ").strip())
 else:
     interest_quantity = 1
 
