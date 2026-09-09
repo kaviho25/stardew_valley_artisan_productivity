@@ -764,15 +764,15 @@ elif lovers:
 
 if len(likers) == len(villagers_gifts):
     print(f"\nEveryone likees '{interest_item}'!")
-elif lovers:
+elif likers:
     print(f"\nThose who like '{interest_item}':")
-    print("\n".join(lovers))
+    print("\n".join(likers))
 
-if len(lovers) == len(villagers_gifts):
+if len(neutralers) == len(villagers_gifts):
     print(f"\nEveryone feels neutral about '{interest_item}'!")
-elif lovers:
+elif neutralers:
     print(f"\nThose who feel neutral about '{interest_item}':")
-    print("\n".join(lovers))
+    print("\n".join(neutralers))
 
 
 if "Wine" in interest_item:
