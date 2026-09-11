@@ -676,6 +676,10 @@ for line in keg_productivity:
     base_price = int(clean_part(line_parts[2]))
     price = int(line_parts[3])
 
+    if item_name.startswith("Honey - "):
+        flower = item_name.replace("Honey - ", "")
+        item_name = f"{flower} Honey"
+
     add_or_update_row(master_list, item_name, quality, base_price, index, price)
 
 # Dehydrator Products
@@ -747,6 +751,8 @@ elif "Cheese" in interest_item:
     gift_lookup_item = "Cheese"
 elif "Juice" in interest_item:
     gift_lookup_item = "Juice"
+elif "Honey" in interest_item:
+    gift_lookup_item = "Honey"
 else:
     gift_lookup_item = interest_item
 
@@ -785,6 +791,8 @@ elif "Juice" in interest_item:
     recipe_lookup_item = "Juice"
 elif "Egg" in interest_item:
     recipe_lookup_item = "Egg"
+elif "Honey" in interest_item:
+    recipe_lookup_item = "Honey"
 else:
     recipe_lookup_item = interest_item
 
